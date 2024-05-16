@@ -25,8 +25,7 @@ export const Form = styled.form`
 
   > h2 {
     font-size: 24px;
-    margin-top: 84px;
-    margin-bottom: 24px;
+    margin: 48px 0;
   }
 
   > p {
@@ -38,7 +37,6 @@ export const Form = styled.form`
     margin-top: 124px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
   }
-
 `
 
 export const Background = styled.div`
